@@ -3,6 +3,11 @@ void area ();
 
 int main ()
 {
+	area();
+	return(0);
+}
+void area()
+{
 	int l,b,area;
 	printf("Enter the first number\n");
 	scanf("%d",&l);
@@ -10,5 +15,5 @@ int main ()
 	scanf("%d",&b);
 	area=l*b;
 	printf("The area of rectangle is:%d",area);
-	return 0;
+
 }
